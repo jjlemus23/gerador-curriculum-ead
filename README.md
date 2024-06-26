@@ -32,5 +32,7 @@ git clone https://github.com/your-username/curriculo-online.git
 
 ## Observações:
 As informações de estilo são definidas no arquivo styles.css.
+
 O código JavaScript para adicionar experiências profissionais está no arquivo script.js.
+
 O arquivo processar.php recebe os dados do formulário e gera a página HTML do currículo.
