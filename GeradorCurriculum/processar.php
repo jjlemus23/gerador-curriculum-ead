@@ -15,6 +15,25 @@
 
 </head>
 <body>
+
+	<header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Currículo Online</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link" href="https://www.google.com/" target="_blank">Google</a></li>
+                        <li><a class="nav-link" href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                        <li><a class="nav-link" href="https://github.com/" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <div class="container">
         <h1>Currículo de <?php echo $_POST['nome']; ?></h1>
 
